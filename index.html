@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--for use social media icon-->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <!--for uses Google font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,300&display=swap"
+      rel="stylesheet"
+    />
+
+    <!--For icon-->
+    <link
+      rel="icon"
+      href="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Meesho_Logo_Full.png/480px-Meesho_Logo_Full.png"
+    />
+
+    <!--For css file-->
+    <link rel="stylesheet" href="style.css" />
+
+    <!--For font awsome-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <title>
+      Online Shopping Site for Fashion, Electronics, Home &amp; More | Meesho
+    </title>
+  </head>
+  <body>
+    <header class="header">
+      <section class="LeftSide">
+        <!--For logo-->
+        <div class="logoContainer">
+          <img src="img/MLogo.jpg" />
+        </div>
+
+        <!--For search-box-->
+        <div class="searchInputContainer">
+          <div class="searchIcon">
+            <img src="img/Msearch.png" />
+          </div>
+
+          <form action="" id="inputForm">
+            <input
+              type="text"
+              placeholder="Try Saree, Kurti or Search by Product Code"
+              class="inputSearch"
+            />
+          </form>
+
+          <div class="inputCloseSearch">
+            <i class="fa-sharp fa-solid fa-xmark" id="closeSearch"></i>
+          </div>
+          <div class="searchRecentModal">
+            <h3>Recent Searches</h3>
+            <div class="listOfRecent"></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- For the Right section-->
+
+      <section class="RightSide">
+        <!--For the DownloadContainer-->
+        <div class="downloadContainer">
+          <div class="mobileIcon">
+            <img src="img/MobileIcon.jpeg" />
+          </div>
+          <p>Download App</p>
+          <div class="dowloadHoverBtnContainer">
+            <h3>Download From</h3>
+
+            <a href="" class="downloadBtn">
+              <img
+                src="https://images.meesho.com/images/pow/playstore-icon-big.png"
+              />
+            </a>
+            <a href="" class="downloadBtn">
+              <img
+                src="https://images.meesho.com/images/pow/appstore-icon-big.png"
+              />
+            </a>
+          </div>
+        </div>
+
+        <!--For SuplierSection-->
+        <div class="becomeSuplierContainer">
+          <p>Become a Supplier</p>
+        </div>
+
+        <!--For cartAndProfile-->
+        <div class="profileAndCart">
+          <div class="profileContainer">
+            <div class="profileIcon">
+              <img src="img/ProfileIcon.jpeg" />
+            </div>
+            <p>Profile</p>
+          </div>
+
+          <div class="cartContainer">
+            <div class="cartIcon">
+              <img src="img/Cart.jpeg" />
+            </div>
+            <p>Cart</p>
+          </div>
+        </div>
+      </section>
+    </header>
+
+    <!--now navigation section-->
+    <nav>
+      <ul>
+        <li>
+          Women Ethnic
+          <div class="subMenu">
+            <div id="womenEthic" class="subMenuList"></div>
+          </div>
+        </li>
+        <li>
+          Women Western
+          <div class="subMenu">
+            <div id="womenWest" class="subMenuList"></div>
+          </div>
+        </li>
+        <li>
+          Men
+          <div class="subMenu">
+            <div id="men" class="subMenuList"></div>
+          </div>
+        </li>
+        <li>
+          Kids
+          <div class="subMenu">
+            <div id="kids" class="subMenuList"></div>
+          </div>
+        </li>
+        <li>
+          Home & Kitchen
+          <div class="subMenu">
+            <div id="handk" class="subMenuList"></div>
+          </div>
+        </li>
+        <li>
+          Beauty & Health
+          <div class="subMenu">
+            <div id="bandh" class="subMenuList"></div>
+          </div>
+        </li>
+        <li>
+          Jewlellery & Accessories
+          <div class="subMenu">
+            <div id="janda" class="subMenuList"></div>
+          </div>
+        </li>
+        <li>
+          Bags & Footwear
+          <div class="subMenu">
+            <div id="bandf" class="subMenuList"></div>
+          </div>
+        </li>
+        <li>
+          Electronics
+          <div class="subMenu">
+            <div id="ele" class="subMenuList"></div>
+          </div>
+        </li>
+      </ul>
+    </nav>
+
+    <!--Now we developed the main section.-->
+    <main>
+      <section>
+        <div class="lowestpriceContainer">
+          <div class="lowestpriceText">
+            <h1>Lowest Prices</h1>
+            <h1>Best Quality Shopping</h1>
+            <div class="lowestpriceSub">
+              <div class="lowestpriceItem">
+                <div class="lowestpriceIcon">
+                  <img
+                    src="https://images.meesho.com/images/pow/freeDelivery.svg"
+                  />
+                </div>
+                <p>Free Delivery</p>
+              </div>
+              <div class="lowestpriceItem">
+                <div class="lowestpriceIcon">
+                  <img src="https://images.meesho.com/images/pow/cod.svg" />
+                </div>
+                <p>Cash on Delivery</p>
+              </div>
+              <div class="lowestpriceItem">
+                <div class="lowestpriceIcon">
+                  <img
+                    src="https://images.meesho.com/images/pow/easyReturns.svg"
+                  />
+                </div>
+                <p>Easy Returns</p>
+              </div>
+            </div>
+            <button class="downloadappicon">
+              <div class="downloadAppIcon">
+                <img
+                  src="https://images.meesho.com/images/pow/playstoreSmallIcon.png"
+                />
+              </div>
+              <p>Download the Meesho App</p>
+            </button>
+          </div>
+          <div class="lowestpriceImg">
+            <img
+              src="https://images.meesho.com/images/marketing/1678691617864_512.webp"
+            />
+          </div>
+        </div>
+      </section>
+
+      <!--Top categories section.-->
+      <section>
+        <div class="topCategoriesFrom">
+          <div class="topCategoriesHeading">
+            <span class="horizontalLine"></span>
+            <h1>Top Categories to choose from</h1>
+            <span class="horizontalLine"></span>
+          </div>
+          <div class="topCatagoriesImg">
+            <img
+              src="https://images.meesho.com/images/marketing/1678691686252_400.webp"
+            />
+            <img
+              src="https://images.meesho.com/images/marketing/1678691699680_300.webp"
+            />
+            <img
+              src="https://images.meesho.com/images/marketing/1678691712594_300.webp"
+            />
+          </div>
+          <div class="essentialContainer">
+            <img
+              src="https://images.meesho.com/images/marketing/1678691759889_200.webp"
+            />
+            <div class="essentialItem">
+              <img
+                src="https://images.meesho.com/images/marketing/1678691846068_200.webp"
+              />
+              <img
+                src="https://images.meesho.com/images/marketing/1678691858580_150.webp"
+              />
+            </div>
+            <div class="essentialItem">
+              <img
+                src="https://images.meesho.com/images/marketing/1678691832099_200.webp"
+              />
+              <img
+                src="https://images.meesho.com/images/marketing/1678691818629_150.webp"
+              />
+            </div>
+            <div class="essentialItem">
+              <img
+                src="https://images.meesho.com/images/marketing/1678691796046_200.webp"
+              />
+              <img
+                src="https://images.meesho.com/images/marketing/1678691781261_150.webp"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!--Now Footer section-->
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="footer-col">
+            <h4>Company</h4>
+            <ul>
+              <li><a href="#">about us.</a></li>
+              <li><a href="#">our services.</a></li>
+              <li><a href="#">privacy policy.</a></li>
+              <li><a href="#">affiliate program.</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Get Help</h4>
+            <ul>
+              <li><a href="#">FAQ.</a></li>
+              <li><a href="#">shipping.</a></li>
+              <li><a href="#">returns.</a></li>
+              <li><a href="#">order status.</a></li>
+              <li><a href="#">payment options.</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Online Shop</h4>
+            <ul>
+              <li><a href="#">Watch.</a></li>
+              <li><a href="#">bag.</a></li>
+              <li><a href="#">shooes.</a></li>
+              <li><a href="#">dress.</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Follow Us</h4>
+            <div class="social-links">
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!--for javascript-->
+    <script src="script.js" type="module"></script>
+  </body>
+</html>
